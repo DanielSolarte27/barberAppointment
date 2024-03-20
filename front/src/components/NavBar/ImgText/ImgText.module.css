@@ -1,0 +1,27 @@
+.imgtextContainer {
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 15px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 60%;
+    margin: 15px auto;
+}
+.imgtextContainer img {
+    width: 250px;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.imgtextContainer p {
+    color: darkgray;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}

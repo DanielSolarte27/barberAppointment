@@ -1,0 +1,36 @@
+.contact {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2.5);
+    padding: 10px 0px 20px;
+  }
+  .contact h2 {
+    color: wheat;
+  }
+  .contactForm input[type="text"],
+  .contactForm input[type="email"],
+  .contactForm textarea {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: wheat;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  
+  .contactForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,25 @@
+.aboutContainer {
+  max-width: 700px; 
+  margin: 0 auto; 
+}
+
+.aboutContainer h2 {
+  color: black; 
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aboutContainer p {
+  margin-bottom: 50px;
+  font-size: 20px; 
+  line-height: 1.5; 
+  color: black;
+}
+
+.aboutContainer h3 {
+  color: rgb(255, 230, 8); 
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

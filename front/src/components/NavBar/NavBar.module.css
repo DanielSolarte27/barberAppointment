@@ -1,0 +1,47 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:lightcyan;
+}
+.logoSection {
+    display: flex;
+    flex-direction: row;
+}
+.logoSection img {
+    width: 80px;
+    height: 80px;
+    padding: 20px 0 20px 50px;
+}
+.avatarSection {
+    display: flex;
+    flex-direction: row;
+}
+.avatarSection img {
+    width: 70px;
+    height: 70px;
+    padding: 30px 50px 30px 0;
+}
+.linksSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    gap: 2em;
+    font-size: 1.2em;
+    color: cadetblue;
+    text-shadow: 2px 2px 4px black;
+}
+.linksSection span:hover {
+    color: wheat;
+    cursor: pointer;
+}
+.linksSection a {
+    text-decoration: none;
+    color:inherit;
+}
+.linksSection a:hover {
+    text-decoration: none;
+    color:inherit;
+}
